@@ -16,6 +16,24 @@ export const persons = [
   }
 ];
 
+export const locations = [
+  {
+    id: "1",
+    address: 'male',
+    name: 'miro'
+  },
+  {
+    id: "2",
+    address: 'female',
+    name: 'lala'
+  },
+  {
+    id: "3",
+    address: 'male',
+    name: 'joe'
+  }
+];
+
 export const findPerson = (persons: Array<any>, id: string) => {
   return persons.find(person => person.id === id);
 };
